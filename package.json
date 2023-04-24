@@ -1,0 +1,14 @@
+{
+    "name": "Tabby",
+    "version": "1.0.0",
+    "description": "limit the amount of tabs you have",
+    "author": "Elizabeth Qiu",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --mode production"
+    },
+    "devDependencies": {
+        "webpack": "^5.80.0",
+        "webpack-cli": "^4.10.0"
+    }
+}

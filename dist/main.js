@@ -1,0 +1,1 @@
+(()=>{let e=0;chrome.tabs.onCreated.addListener((function(o){e>=4?chrome.tabs.remove(o.id):e++})),chrome.tabs.onRemoved.addListener((function(){e--}))})();

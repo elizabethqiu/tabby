@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Tabby",
+	"version": "1.0",
+	"description": "limit the amount of tabs you have",
+	"icons": {
+		"128": "./img/tabby.png"
+	},
+	"permissions": ["tabs"],
+	"background": {
+		"scripts": ["./src/index.js"]
+	}
+}
